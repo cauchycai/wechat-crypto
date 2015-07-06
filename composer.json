@@ -1,0 +1,32 @@
+{
+    "name": "cauchycai/wechat-crypto",
+    "type": "library",
+    "description": "",
+    "keywords": ["wechat"],
+    "homepage": "https://github.com/cauchycai",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cauchy Cai",
+            "email": "cauchy.cai@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WechatCrypto\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WechatCrypto\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+    }
+}
